@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Marriage Eligible</title>
+        <meta charset ="utf-8">
+		<meta name="description" content=""/>
+		<meta name="keywords" content="HTML,CSS,Java script"/>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    </head>
+    <body>
+       <script>
+            var x = prompt("Your married status");
+            
+
+            if(x=="married"){
+                document.write("Sorry! you are alreay married")
+            }
+            else{
+                var y = prompt("Enter you are gender");
+                var z = prompt("Enter you are age");
+                if(y=="male" && parseInt(z)>21){
+                    document.write("You are eligible for married life sir");
+                }
+                else if(y=="female" && parseInt(z)>18){
+                    document.write("you are eligible for married life ma'am");
+                }
+                else{
+                    document.write("Sorry! you are alreay married");
+                }
+            }
+       </script> 
+    </body>
+</html>
